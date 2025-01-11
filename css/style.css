@@ -11,10 +11,6 @@
     width: 100%;
 }
 
-
-
-
-
 .footer-bg {
     background: #374a5e;
   }
@@ -39,10 +35,60 @@
   .footer-icon-box-size{
     width: 50px;
     height: 50px;
-    
   }
   
+  .first-section-para-color{
+    background-color: #006A4E9E;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  }
 
+.section-three-story-background{
+  background: #f7f9fb;
+}
+
+.mission-position{
+  top: 11%;
+  left: 50%;
+}
+
+.mission-second-position{
+  top: 11%;
+  right: 50%;
+}
+
+.mission-div-row-position{
+  position: relative;
+}
+
+.mission-div-text-position{
+  position: absolute;
+}
+
+.word-fold{
+  word-wrap: break-word;
+}
+
+.mission-img-priority{
+  z-index: -1;
+}
+
+.mission-img-position{
+  right: -50%;
+}
+
+@media (max-width: 767px) {
+  .mission-div-row-position{
+    position: static;
+  }
+  
+  .mission-div-text-position{
+    position: static;
+  }
+  .first-section-member-button-position{
+    display: flex;
+    justify-content: center;
+  }
+  }
 
 @media (max-width: 991px) {
     .logo-size{
@@ -57,6 +103,35 @@
 
     .first-section-background-image{
         background-position: center right;
-        height: 545px;
+        height: 645px;
+    }
+    .footer-text-position{
+      text-align: center;
+    }
+    .footer-div-position{
+      display: flex;
+      justify-content: center;
+    }
+    .mission-position{
+      top: 1%;
+      left: 50%;
     }
     }
+
+    @media (max-width: 1200px) {
+      .mission-position{
+        top: 14%;
+        left: 50%;
+      }
+      }
+
+    
+
+  @media (max-width: 1400px) {
+    .mission-position{
+      top: 14%;
+      left: 50%;
+    }
+    }
+
+    
