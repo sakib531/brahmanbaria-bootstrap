@@ -76,6 +76,13 @@
   right: -50%;
 }
 
+.offer-background{
+  background-image: url("../images/A-3.jpeg");
+  position: center;
+    background-size: cover;
+    width: 100%;
+}
+
 @media (max-width: 767px) {
   .mission-div-row-position{
     position: static;
